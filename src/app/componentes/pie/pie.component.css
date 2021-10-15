@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+.imagen-pie{
+    width: 60px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* position: fixed;
+    z-index: 1; */
+  }
+  p{
+     margin-top: -7px;
+      text-align: center;
+      width: 100%;
+  }
+  @media (max-width:529px){
+   p{
+       font-size: 14px;
+   }
+  }
+  @media (max-width:469px){
+    p{
+        margin-top: -14px;
+    }
+   }
