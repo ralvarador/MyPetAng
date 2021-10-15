@@ -7,6 +7,7 @@ import { RazaActualizarComponent } from './paginas/raza/raza-actualizar/raza-act
 import { EspeciePrincipalComponent } from './paginas/especie/especie-principal/especie-principal.component';
 import { EspecieNuevoComponent } from './paginas/especie/especie-nuevo/especie-nuevo.component';
 import { EspecieActualizarComponent } from './paginas/especie/especie-actualizar/especie-actualizar.component';
+import { AdopcionNuevoComponent } from './paginas/adopcion/adopcion-nuevo/adopcion-nuevo.component';
 /**
  *
  * */
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'Especies/Principal',component:EspeciePrincipalComponent},
   {path:'Especies/Nuevo',component:EspecieNuevoComponent},
   {path:'Especies/Actualizar',component:EspecieActualizarComponent},
+  {path:'Adopciones/Nuevo',component:AdopcionNuevoComponent},
   {path:'',redirectTo:'/principal',pathMatch:'full'}
 ];
 

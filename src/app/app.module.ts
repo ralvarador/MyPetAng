@@ -17,6 +17,8 @@ import { RazaListadoComponent } from './paginas/raza/raza-listado/raza-listado.c
 import { EspecieListadoComponent } from './paginas/especie/especie-listado/especie-listado.component';
 import { RazaActualizarComponent } from './paginas/raza/raza-actualizar/raza-actualizar.component';
 import { EspecieActualizarComponent } from './paginas/especie/especie-actualizar/especie-actualizar.component';
+import { AdopcionNuevoComponent } from './paginas/adopcion/adopcion-nuevo/adopcion-nuevo.component';
+import { AdopcionPrincipalComponent } from './paginas/adopcion/adopcion-principal/adopcion-principal.component';
 
 
 
@@ -37,7 +39,9 @@ import { EspecieActualizarComponent } from './paginas/especie/especie-actualizar
     EspecieMenuComponent,
     EspecieNuevoComponent,
     EspecieListadoComponent,
-    EspecieActualizarComponent
+    EspecieActualizarComponent,
+    AdopcionNuevoComponent,
+    AdopcionPrincipalComponent
   ],
   imports: [
     BrowserModule,
