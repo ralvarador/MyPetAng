@@ -8,10 +8,16 @@ import { PieComponent } from './componentes/pie/pie.component';
 import { PaginaPrincipalComponent } from './paginas/principal/principal.component';
 import { PrincipalMenuComponent } from './componentes/principal-menu/principal-menu.component';
 import { RazaPrincipalComponent } from './paginas/raza/raza-principal/raza-principal.component';
+import { EspeciePrincipalComponent } from './paginas/especie/especie-principal/especie-principal.component';
 import { RazaMenuComponent } from './paginas/raza/raza-menu/raza-menu.component';
+import { EspecieMenuComponent } from './paginas/especie/especie-menu/especie-menu.component';
 import { RazaNuevoComponent } from './paginas/raza/raza-nuevo/raza-nuevo.component';
+import { EspecieNuevoComponent } from './paginas/especie/especie-nuevo/especie-nuevo.component';
 import { RazaListadoComponent } from './paginas/raza/raza-listado/raza-listado.component';
+import { EspecieListadoComponent } from './paginas/especie/especie-listado/especie-listado.component';
 import { RazaActualizarComponent } from './paginas/raza/raza-actualizar/raza-actualizar.component';
+import { EspecieActualizarComponent } from './paginas/especie/especie-actualizar/especie-actualizar.component';
+
 
 
 
@@ -26,7 +32,12 @@ import { RazaActualizarComponent } from './paginas/raza/raza-actualizar/raza-act
     RazaMenuComponent,
     RazaNuevoComponent,
     RazaListadoComponent,
-    RazaActualizarComponent
+    RazaActualizarComponent,
+    EspeciePrincipalComponent,
+    EspecieMenuComponent,
+    EspecieNuevoComponent,
+    EspecieListadoComponent,
+    EspecieActualizarComponent
   ],
   imports: [
     BrowserModule,

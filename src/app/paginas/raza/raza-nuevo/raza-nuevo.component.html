@@ -1,43 +1,41 @@
 <p>raza-nuevo works!</p>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <app-encabezado></app-encabezado>
-        </div>
+<div class="row">
+    <div class="col">
+        <app-encabezado></app-encabezado>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-raza-menu></app-raza-menu>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-raza-menu></app-raza-menu>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group" id="frm_NuevaRaza">
-                <h3>Registrar una nueva raza:</h3>
-                <br />
-                <div class="form-group">
-                    <label for="txtNuevaRazaNombre">Nombre de la raza</label>
-                    <input type="text" class="form-control" id="txtNuevaRazaNombre">
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="slctNuevaRazaEspecie">Seleccione la Especie de la raza:</label>
-                    <select class="form-control" id="slctNuevaRazaEspecie"></select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="txtareaNuevaRazaDescripcion">Descripci&oacute;n:</label>
-                    <textarea class="form-control" id="txtareaNuevaRazaDescripcion" rows="3" maxLength="255"></textarea>
-                </div>
-                <!--Registrar una nueva raza en la BD-->
-                <br />
-                <button class="btn btn-primary" onclick="addRaza();">Registrar</button>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="form-group" id="frm_NuevaRaza">
+            <h3>Registrar una nueva raza:</h3>
+            <br />
+            <div class="form-group">
+                <label for="txtNuevaRazaNombre">Nombre de la raza</label>
+                <input type="text" class="form-control" id="txtNuevaRazaNombre">
             </div>
+            <br />
+            <div class="form-group">
+                <label for="slctNuevaRazaEspecie">Seleccione la Especie de la raza:</label>
+                <select class="form-control" id="slctNuevaRazaEspecie"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="txtareaNuevaRazaDescripcion">Descripci&oacute;n:</label>
+                <textarea class="form-control" id="txtareaNuevaRazaDescripcion" rows="3" maxLength="255"></textarea>
+            </div>
+            <!--Registrar una nueva raza en la BD-->
+            <br />
+            <button class="btn btn-primary" onclick="//addRaza();">Registrar</button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-pie></app-pie>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-pie></app-pie>
     </div>
 </div>

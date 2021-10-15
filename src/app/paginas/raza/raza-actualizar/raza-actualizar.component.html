@@ -1,45 +1,43 @@
 <p>raza-actualizar works!</p>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <app-encabezado></app-encabezado>
-        </div>
+
+<div class="row">
+    <div class="col">
+        <app-encabezado></app-encabezado>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-raza-menu></app-raza-menu>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-raza-menu></app-raza-menu>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group" id="frm_EditarRAza">
-                <h3>Actualizar raza:</h3>
-                <br />
-                <div class="form-group">
-                    <label for="txtEditarRAzaNombre">Nombre de la raza</label>
-                    <input type="text" class="form-control" id="txtEditarRAzaNombre">
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="slctEditarRAzaEspecie">Seleccione la Especie de la raza:</label>
-                    <select class="form-control" id="slctEditarRAzaEspecie"></select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="txtareaEditarRAzaDescripcion">Descripci&oacute;n:</label>
-                    <textarea class="form-control" id="txtareaEditarRAzaDescripcion" rows="3"
-                        maxLength="255"></textarea>
-                    <input type="hidden" id="txtEditarRAzaId" value="-1"/>
-                </div>
-                <!--Registrar una nueva raza en la BD-->
-                <br />
-                <button class="btn btn-primary" onclick="actualizarRaza();">Actualizar</button>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="form-group" id="frm_EditarRAza">
+            <h3>Actualizar raza:</h3>
+            <br />
+            <div class="form-group">
+                <label for="txtEditarRAzaNombre">Nombre de la raza</label>
+                <input type="text" class="form-control" id="txtEditarRAzaNombre">
             </div>
+            <br />
+            <div class="form-group">
+                <label for="slctEditarRAzaEspecie">Seleccione la Especie de la raza:</label>
+                <select class="form-control" id="slctEditarRAzaEspecie"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="txtareaEditarRAzaDescripcion">Descripci&oacute;n:</label>
+                <textarea class="form-control" id="txtareaEditarRAzaDescripcion" rows="3" maxLength="255"></textarea>
+                <input type="hidden" id="txtEditarRAzaId" value="-1" />
+            </div>
+            <!--Registrar una nueva raza en la BD-->
+            <br />
+            <button class="btn btn-primary" onclick="actualizarRaza();">Actualizar</button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-pie></app-pie>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-pie></app-pie>
     </div>
 </div>
