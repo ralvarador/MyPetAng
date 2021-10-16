@@ -1,43 +1,41 @@
-<p>especie-nuevo works!</p>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <app-encabezado></app-encabezado>
-        </div>
+<div class="row">
+    <div class="col">
+        <app-encabezado></app-encabezado>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-especie-menu></app-especie-menu>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-especie-menu></app-especie-menu>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group" id="frm_NuevaEspecie">
-                <h3>Registrar una nueva especie:</h3>
-                <br />
-                <div class="form-group">
-                    <label for="txtNuevaEspecieNombre">Nombre de la especie</label>
-                    <input type="text" class="form-control" id="txtNuevaEspecieNombre">
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="slctNuevaEspecieEspecie">Seleccione la Especie de la especie:</label>
-                    <select class="form-control" id="slctNuevaEspecieEspecie"></select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="txtareaNuevaEspecieDescripcion">Descripci&oacute;n:</label>
-                    <textarea class="form-control" id="txtareaNuevaEspecieDescripcion" rows="3" maxLength="255"></textarea>
-                </div>
-                <!--Registrar una nueva especie en la BD-->
-                <br />
-                <button class="btn btn-primary" onclick="//addEspecie();">Registrar</button>
+</div>
+<div class="row">
+    <div class="col margenes">
+        <div class="form-group" id="frm_NuevaEspecie">
+            <h3>Registrar una nueva especie:</h3>
+            <br />
+            <div class="form-group">
+                <label for="txtNuevaEspecieNombre">Nombre de la especie</label>
+                <input type="text" class="form-control" id="txtNuevaEspecieNombre">
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <app-pie></app-pie>
+            <br />
+            <div class="form-group">
+                <label for="slctNuevaEspecieEspecie">Seleccione la Especie de la especie:</label>
+                <select class="form-control" id="slctNuevaEspecieEspecie"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="txtareaNuevaEspecieDescripcion">Descripci&oacute;n:</label>
+                <textarea class="form-control" id="txtareaNuevaEspecieDescripcion" rows="3" maxLength="255"></textarea>
+            </div>
+            <!--Registrar una nueva especie en la BD-->
+            <br />
+            <button class="btn btn-primary" onclick="//addEspecie();">Registrar</button>
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col">
+        <app-pie></app-pie>
+    </div>
+</div>
+<!--<p>especie-nuevo works!</p>-->

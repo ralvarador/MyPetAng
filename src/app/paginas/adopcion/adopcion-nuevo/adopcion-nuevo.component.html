@@ -1,28 +1,161 @@
-<p>adopcion-nuevo works!</p>
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <app-encabezado></app-encabezado>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm">
-            <app-principal-menu></app-principal-menu>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm">
-            <pre>
-                Aquí debería ir el formulario de nueva adopci&oacute;n
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum dolore adipisci quia enim, atque quisquam
-                accusamus sint animi quos ea cum explicabo repellat voluptatibus reprehenderit vero quae aliquam magni?
-            </pre>
-            <img src="../../../assets/img/tu_mejor_amigo_esta_esperando.jpg">
-        </div>        
-    </div>
-    <div class="row">
-        <div class="col-sm">
-            <app-pie></app-pie>
-        </div>
-    </div>
-    </div>
+
+<div class="row">
+  <div class="col-sm">
+    <app-encabezado></app-encabezado>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <app-principal-menu></app-principal-menu>
+  </div>
+</div>
+<br><br>
+<div class="row margen-izquierda">
+  <div class="col-sm">
+    <form class="row g-3">
+      <div class="col-md-5">
+        <input type="text" class="form-control" placeholder="Nombres" required>
+      </div>
+      <div class="col-md-5">
+        <input type="text" class="form-control" placeholder="Apellidos" required>
+      </div>
+      <div class="col-md-2">
+        <input type="email" class="form-control" placeholder="Edad" required>
+      </div>
+      <br><br>
+      <div class="col-md-4">
+        <input type="text" class="form-control" placeholder="Telefono" required>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" placeholder="celular" required>
+      </div>
+      <div class="col-md-4">
+        <input type="email" class="form-control" placeholder="Correo">
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Direccion">
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Localidad">
+      </div>
+      <div class="mb-3">
+        <br><br>
+        <label for="exampleFormControlTextarea1" class="form-label">¿Por que quieres adoptar una mascota?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+      </div>
+      <p>
+        ¿En que tipo de viviendo vives?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Casa
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Departamento
+        </label>
+      </div>
+      <p>
+        ¿Ya has tenido mascotas?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Si
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          No
+        </label>
+      </div>
+      <p>
+        ¿Tu familia esta deacuerdo en adoptar?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Si
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          No
+        </label>
+      </div>
+      <p>
+        ¿Cuantas personas conforman tu hogar ?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          entre 1 y 5
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          entre 6 y 10
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          mas de 10
+        </label>
+      </div>
+      <div class="mb-3">
+        <br>
+        <label for="exampleFormControlTextarea1" class="form-label">¿Donde dormiria tu mascota?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+      </div>
+      <p>
+        ¿Esta dispuesto a ponerle todas las vacunas a su mascota?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Si
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          No
+        </label>
+      </div>
+      <p>
+        ¿ esta listo para realiazar la Adopcion?
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Si
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          No
+        </label>
+      </div>
+      <div class="col-6">
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+      <div class="col-6">
+        <img class="imagendog" src="../../../../assets/img/tu_mejor_amigo_esta_esperando.jpg">
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <app-pie></app-pie>
+  </div>
+</div>

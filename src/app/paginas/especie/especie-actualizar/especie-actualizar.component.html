@@ -1,45 +1,41 @@
-<p>especie-actualizar works!</p>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <app-encabezado></app-encabezado>
-        </div>
+<div class="row">
+    <div class="col">
+        <app-encabezado></app-encabezado>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-especie-menu></app-especie-menu>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-especie-menu></app-especie-menu>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group" id="frm_EditarEspecie">
-                <h3>Actualizar especie:</h3>
-                <br />
-                <div class="form-group">
-                    <label for="txtEditarEspecieNombre">Nombre de la especie</label>
-                    <input type="text" class="form-control" id="txtEditarEspecieNombre">
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="slctEditarEspecieEspecie">Seleccione la Especie de la especie:</label>
-                    <select class="form-control" id="slctEditarEspecieEspecie"></select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="txtareaEditarEspecieDescripcion">Descripci&oacute;n:</label>
-                    <textarea class="form-control" id="txtareaEditarEspecieDescripcion" rows="3"
-                        maxLength="255"></textarea>
-                    <input type="hidden" id="txtEditarEspecieId" value="-1"/>
-                </div>
-                <!--Registrar una nueva especie en la BD-->
-                <br />
-                <button class="btn btn-primary" onclick="//actualizarEspecie();">Actualizar</button>
+</div>
+<div class="row">
+    <div class="col margenes">
+        <div class="form-group" id="frm_EditarEspecie">
+            <h3>Actualizar especie:</h3>
+            <br />
+            <div class="form-group">
+                <label for="txtEditarEspecieNombre">Nombre de la especie</label>
+                <input type="text" class="form-control" id="txtEditarEspecieNombre">
             </div>
+            <br />
+            <div class="form-group">
+                <label for="slctEditarEspecieEspecie">Seleccione la Especie de la especie:</label>
+                <select class="form-control" id="slctEditarEspecieEspecie"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="txtareaEditarEspecieDescripcion">Descripci&oacute;n:</label>
+                <textarea class="form-control" id="txtareaEditarEspecieDescripcion" rows="3" maxLength="255"></textarea>
+                <input type="hidden" id="txtEditarEspecieId" value="-1" />
+            </div>
+            <!--Registrar una nueva especie en la BD-->
+            <br />
+            <button class="btn btn-primary" onclick="//actualizarEspecie();">Actualizar</button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <app-pie></app-pie>
-        </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-pie></app-pie>
     </div>
 </div>

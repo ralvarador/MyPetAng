@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+.jumbotron{
+    margin-top: -24px;
+    background: url('../../../assets/img/degradado.png');
+    background-size: cover;
+    color: aliceblue;
+}
+h1{
+    margin: 0px 0px 0px;
+    padding: 10px 0px 0px;
+}
+h3{
+    padding: 0px 0px 20px;
+}

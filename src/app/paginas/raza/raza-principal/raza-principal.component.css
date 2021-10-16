@@ -1,0 +1,17 @@
+.imagen-raza{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+}
+
+.imagen-raza-bg{
+    background-image: url("../../../../assets/img/perros_y_gatos_collage_001.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+p{
+    font-size: 30px;
+}

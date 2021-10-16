@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+a.navbar-brand{
+    margin: 0px 100px 0px 0px;
+}
+a.nav-link.active{
+    margin: 0px 10px;
+}
+.container-fluid{
+	height: 50px;
+}
